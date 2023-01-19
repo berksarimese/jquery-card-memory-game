@@ -1,0 +1,31 @@
+{
+	"users": {
+		"berk": {
+			"name": "Berk",
+			"surname": "Sarımeşe",
+			"age": 25,
+            "image": "patates1.jpg"
+		},
+
+		"john": {
+			"name": "John",
+			"surname": "Walker",
+			"age": 32,
+            "image": "patates2.jpg"
+		},
+
+        "michael": {
+			"name": "Michael",
+			"surname": "Toast",
+			"age": 20,
+            "image": "meyve1.jpg"
+		},
+
+        "samuel": {
+			"name": "Samuel",
+			"surname": "Bird",
+			"age": 42,
+            "image": "araba1.jpg"
+		}
+	}
+}
