@@ -1,31 +1,43 @@
 {
-	"users": {
-		"berk": {
-			"name": "Berk",
-			"surname": "Sarımeşe",
-			"age": 25,
-            "image": "patates1.jpg"
+	"cards": {
+		"card1": {
+            "image": "img1.jpg"
 		},
 
-		"john": {
-			"name": "John",
-			"surname": "Walker",
-			"age": 32,
-            "image": "patates2.jpg"
+		"card2": {
+            "image": "img2.jpg"
 		},
 
-        "michael": {
-			"name": "Michael",
-			"surname": "Toast",
-			"age": 20,
-            "image": "meyve1.jpg"
+        "card3": {
+            "image": "img3.jpg"
 		},
 
-        "samuel": {
-			"name": "Samuel",
-			"surname": "Bird",
-			"age": 42,
-            "image": "araba1.jpg"
+        "card4": {
+            "image": "img4.jpg"
+		},
+
+		"card5": {
+            "image": "img5.jpg"
+		},
+
+		"card6": {
+            "image": "img6.jpg"
+		},
+
+		"card7": {
+            "image": "img7.jpg"
+		},
+
+		"card8": {
+            "image": "img8.jpg"
+		},
+
+		"card9": {
+            "image": "img9.jpg"
+		},
+
+		"card10": {
+            "image": "img10.jpg"
 		}
 	}
 }
