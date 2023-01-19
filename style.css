@@ -1,11 +1,19 @@
 body {
     overflow: hidden;
-    background-color: black;
+    background-color: #FFF6C3;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
+}
+
+.title {
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    color: #850000;
 }
 
 .main-container {
@@ -13,9 +21,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 1050px;
+    width: 1150px;
     box-sizing: border-box;
-    border: red solid 2px;
+    border: #FFDB89 solid 10px;
+    padding: 10px;
 }
 
 .card {
@@ -32,7 +41,7 @@ body {
     height: 150px;
     width: 100px;
     transform: rotateY(360deg);
-    background-color: #EB6440;
+    background-color: #DC0000;
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
@@ -54,11 +63,8 @@ body {
     transform-style: preserve-3d;  
     background-size: cover;
     background-position: center; 
-}
-
-.card-back:hover {
     box-sizing: border-box;
-    border: 2px white solid;
+    border: 5px #850000 solid;
 }
 
 .card-front-rotate {
@@ -70,3 +76,17 @@ body {
     transform: rotateY(360deg);
   }
   
+.restart-button {
+    margin-top: 10px;
+    padding: 20px 525px;
+    background-color: #ceb988;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    color: #850000;
+}
+
+.restart-button:hover {
+    background-color: #DC0000;
+    color: white;
+}

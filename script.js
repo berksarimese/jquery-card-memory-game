@@ -27,6 +27,10 @@ $(document).ready(function(){
     }
     });
 
+    $('.restart-button').click(function() {
+        location.reload();
+    });
+
 });
 
 //AJAX
