@@ -7,6 +7,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    margin: 0px;
 }
 
 .title {
@@ -89,4 +90,37 @@ body {
 .restart-button:hover {
     background-color: #DC0000;
     color: white;
+}
+
+@media only screen and (max-width: 550px) {
+ 
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .card {
+        height: 100px;
+        min-width: 60px;
+    }
+    
+    .card-front {
+        height: 100px;
+        width: 60px;
+    }
+    
+    .card-back {
+        height: 100px;
+        width: 60px;
+    }
+
+    .title {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
 }
